@@ -1,5 +1,8 @@
 package net.Elliot.cosmod;
 
+import net.Elliot.cosmod.block.ModBlocks;
+import net.Elliot.cosmod.item.ModItemGroups;
+import net.Elliot.cosmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class CosMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }

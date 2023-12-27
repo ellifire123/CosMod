@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cosmod:cosmite_block"
+    }
+  ],
+  "result": {
+    "item": "cosmod:cosmite_bar",
+    "count": 9
+  }
+}

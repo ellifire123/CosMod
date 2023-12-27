@@ -1,0 +1,8 @@
+{
+  "item.cosmod.cosmite": "Cosmite",
+  "item.cosmod.cosmite_bar": "Cosmite Ingot",
+
+  "block.cosmod.cosmite_block": "Block of Cosmite",
+
+  "itemgroup.cosmod": "CosMod Items"
+}
