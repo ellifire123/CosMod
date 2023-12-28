@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "cosmod:cosmite_ore",
+    "cosmod:cosmite_block"
+  ]
+}

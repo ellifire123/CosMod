@@ -18,7 +18,14 @@ public class ModItemGroups {
                         entries.add(ModItems.COSMITE);
                         entries.add(ModItems.COSMITE_BAR);
 
+                        entries.add(ModItems.COSMITE_PICKAXE);
+                        entries.add(ModItems.COSMITE_AXE);
+                        entries.add(ModItems.COSMITE_SWORD);
+                        entries.add(ModItems.COSMITE_SHOVEL);
+                        entries.add(ModItems.COSMITE_HOE);
+
                         entries.add(ModBlocks.COSMITE_BLOCK);
+                        entries.add(ModBlocks.COSMITE_ORE);
                     }).build());
 
     public static void registerItemGroups(){

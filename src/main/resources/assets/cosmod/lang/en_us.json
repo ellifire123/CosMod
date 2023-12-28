@@ -2,7 +2,14 @@
   "item.cosmod.cosmite": "Cosmite",
   "item.cosmod.cosmite_bar": "Cosmite Ingot",
 
+  "item.cosmod.cosmite_pickaxe": "Cosmite Pickaxe",
+  "item.cosmod.cosmite_axe": "Cosmite Axe",
+  "item.cosmod.cosmite_sword": "Cosmite Sword",
+  "item.cosmod.cosmite_shovel": "Cosmite Shovel",
+  "item.cosmod.cosmite_hoe": "Cosmite Hoe",
+
   "block.cosmod.cosmite_block": "Block of Cosmite",
+  "block.cosmod.cosmite_ore": "Cosmite Ore",
 
   "itemgroup.cosmod": "CosMod Items"
 }

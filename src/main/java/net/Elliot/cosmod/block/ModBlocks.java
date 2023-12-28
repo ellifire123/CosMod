@@ -5,16 +5,20 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
     public static final Block COSMITE_BLOCK = registerBlock("cosmite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block COSMITE_ORE = registerBlock("cosmite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(7,10), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
